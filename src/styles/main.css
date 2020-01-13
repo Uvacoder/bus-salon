@@ -1,3 +1,37 @@
+@import url("//hello.myfonts.net/count/3ad6ca");
+
+@font-face {
+  font-family: 'BrandonTextWeb-Regular';
+  src: url('../fonts/3AD6CA_0_0.eot');
+  src: 
+    url('../fonts/3AD6CA_0_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/3AD6CA_0_0.woff2') format('woff2'),
+    url('../fonts/3AD6CA_0_0.woff') format('woff'),
+    url('../fonts/3AD6CA_0_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'BrandonTextWeb-Medium';
+  src: url('../fonts/3AD6CA_1_0.eot');
+  src: 
+    url('../fonts/3AD6CA_1_0.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/3AD6CA_1_0.woff2') format('woff2'),
+    url('../fonts/3AD6CA_1_0.woff') format('woff'),
+    url('../fonts/3AD6CA_1_0.ttf') format('truetype');
+}
+ 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* * {
+  border: 1px solid red;
+} */
+
+body {
+  @apply font-body;
+}
+
+a {
+  transition: all .3s;
+}

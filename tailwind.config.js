@@ -1,3 +1,5 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   theme: {
     screens: {
@@ -12,6 +14,18 @@ module.exports = {
         middlepink: '#e59795',
         pastel: '#fbf0f0',
         brown: '#362e31'
+      },
+      spacing: {
+        '14': '3.5rem',
+      },
+      maxWidth: {
+        '7xl': '78rem',
+      },
+      fontFamily: {
+        body: [
+          'BrandonTextWeb-Regular',
+          ...defaultTheme.fontFamily.sans,
+        ],
       },
     }
   },
