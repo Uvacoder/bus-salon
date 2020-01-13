@@ -2,23 +2,12 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import logo, { ReactComponent as Logo } from '../images/logo.svg'
-
+import { ReactComponent as Logo } from '../images/svg/camilia-logo.svg'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <div style={{ 
-      textAlign: `center`,
-      display: `flex`,
-      justifyContent: `center`,
-      alignItems: `center`,
-      flexDirection: `column`,
-      flexGrow: `1`,
-      height: `90vh`,
-    }}>
+    <SEO title="Accueil" />
       <Logo />
-    </div>
   </Layout>
 )
 

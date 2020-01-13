@@ -1,10 +1,20 @@
 module.exports = {
   siteMetadata: {
     title: `Camilia Coiffure`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    description: `Salon de coiffure mixte à Lyon. Mèches, coloration, ombre hair, tie & dye, coupe homme/femme. Sur rendez-vous au 04 72 80 96 77.`,
+    author: `@camiliacoiffure`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
+    'gatsby-plugin-svgr',
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: false,
+        develop: false,
+        tailwind: true,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -24,7 +34,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/camilia-icon.png`, // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-svgr',
