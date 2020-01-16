@@ -5,7 +5,7 @@ import { FiFacebook, FiInstagram } from "react-icons/fi"
 
 const Header = () => (
   <header className="bg-white">
-    <div className="px-6 mx-auto my-16 sm:px-8 max-w-7xl">
+    <div className="px-6 mx-auto my-10 sm:my-16 sm:px-8 max-w-8xl">
       <div className="flex flex-col justify-center md:flex-row md:justify-between">
         <div className="flex-1">
           <Logo className="flex justify-center w-56 mx-auto md:mx-0"/>

@@ -19,13 +19,21 @@ module.exports = {
         '14': '3.5rem',
       },
       maxWidth: {
-        '7xl': '78rem',
+        '7xl': '1240px',
+        '8xl': '1380px',
+      },
+      fontSize: {
+        '1xl': '1.35rem',
       },
       fontFamily: {
         body: [
           'BrandonTextWeb-Regular',
           ...defaultTheme.fontFamily.sans,
         ],
+        branbold: [
+          'BrandonTextWeb-Medium',
+          ...defaultTheme.fontFamily.sans,          
+        ]
       },
     }
   },
