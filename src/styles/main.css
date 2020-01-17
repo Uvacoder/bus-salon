@@ -35,3 +35,9 @@ body {
 a {
   transition: all .3s;
 }
+
+@screen md {
+  .badge:last-child {
+    @apply ml-2;
+  }
+}
