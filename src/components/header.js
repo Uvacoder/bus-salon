@@ -10,7 +10,7 @@ const Header = () => (
         <div className="flex-1">
           <Logo className="flex justify-center w-56 mx-auto md:mx-0"/>
         </div>
-        <nav className="mt-8 text-xl text-center">
+        <nav className="mt-8 text-center text-1xl font-branbold text-brown">
           <AnchorLink href="#prestations" className="mr-6 lg:mr-8 hover:text-pink">
             Prestations
           </AnchorLink>
@@ -22,10 +22,10 @@ const Header = () => (
           </AnchorLink>
         </nav>
         <div className="flex justify-center mt-6 md:mt-0 md:items-center">
-          <a href="http://instagram.com/camilia_coiffure/" className="flex items-center justify-center mr-2 rounded-full w-14 h-14 bg-pastel hover:bg-pink">
+          <a href="http://instagram.com/camilia_coiffure/" className="flex items-center justify-center mr-2 rounded-full cursor-pointer w-14 h-14 bg-pastel hover:bg-pink">
             <FiInstagram className="text-2xl text-brown" />
           </a>
-          <a href="http://facebook.com/camiliacoiffure.lyon/" className="flex items-center justify-center rounded-full w-14 h-14 bg-pastel hover:bg-pink">
+          <a href="http://facebook.com/camiliacoiffure.lyon/" className="flex items-center justify-center rounded-full cursor-pointer w-14 h-14 bg-pastel hover:bg-pink">
             <FiFacebook className="text-2xl text-brown" />
           </a>
         </div>

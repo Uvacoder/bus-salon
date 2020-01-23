@@ -4,7 +4,7 @@ import { FiCoffee, FiList, FiMessageCircle } from "react-icons/fi"
 
 const Services = () => {
   return (
-    <div className="flex flex-wrap justify-center mx-auto my-10 text-center max-w-7xl -px-10">
+    <div className="flex flex-wrap justify-center py-10 mx-auto text-center max-w-7xl -px-10 lg:py-14">
       <Service 
         title="Tarifs des prestations pour l’année 2020"
         text="Pour connaître le prix de nos différentes prestations (coupe, coloration, mèches, balayages, etc…)"
