@@ -32,9 +32,17 @@ body {
   @apply font-body;
 }
 
-a {
+a, button {
   transition: all .3s;
 }
+
+/* TYPOGRAPHY */
+
+
+  p {
+    @apply text-xl;
+  }
+
 
 @screen md {
   .badge:last-child {

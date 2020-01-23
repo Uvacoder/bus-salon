@@ -17,6 +17,12 @@ module.exports = {
       },
       spacing: {
         '14': '3.5rem',
+        '80': '20rem',
+        '96': '24rem',
+        '112': '28rem',
+        '128': '32rem',
+        'bloc650': '650px',
+        'bloc800': '800px',
       },
       maxWidth: {
         '7xl': '1240px',
