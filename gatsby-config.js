@@ -5,6 +5,12 @@ module.exports = {
     author: `@camiliacoiffure`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `camilia_coiffure`,
+      },
+    },
     `gatsby-plugin-postcss`,
     'gatsby-plugin-svgr',
     {

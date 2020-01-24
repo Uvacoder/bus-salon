@@ -1,7 +1,6 @@
 import React from "react"
 
 function CamiliaLogo(props) {
-  console.log(props.color1);
   
   return (
     <svg
