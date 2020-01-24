@@ -2,7 +2,7 @@ import React from 'react';
 
 const GoogleLogo = (props) => {
   return (
-    <svg viewBox="0 0 110 32.92" {...props}>
+    <svg viewBox="0 0 110 33" xmlSpace="preserve" {...props}>
       <style>{".prefix__st0{fill:#ea4335}.prefix__st2{fill:#4285f4}"}</style>
       <g id="prefix__Layer_1">
         <path
