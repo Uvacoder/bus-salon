@@ -1,14 +1,15 @@
 import React from "react"
-import { ReactComponent as Logo } from '../images/svg/camilia-logo.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { FiFacebook, FiInstagram } from "react-icons/fi"
+import CamiliaLogo from "./camiliaLogo"
+
 
 const Header = () => (
   <header className="bg-white">
     <div className="px-6 mx-auto my-8 sm:my-10 sm:px-8 max-w-8xl">
       <div className="flex flex-col justify-center md:flex-row md:justify-between">
         <div className="flex-1">
-          <Logo className="flex justify-center w-56 mx-auto md:mx-0"/>
+          <CamiliaLogo className="flex justify-center w-56 mx-auto md:mx-0" color1="#e73a65" color2="#4b3f42"/>
         </div>
         <nav className="mt-8 text-center text-1xl font-branbold text-brown">
           <AnchorLink href="#prestations" className="mr-6 lg:mr-8 hover:text-pink">

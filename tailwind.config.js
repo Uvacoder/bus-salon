@@ -13,7 +13,8 @@ module.exports = {
         pink: '#db4068',
         middlepink: '#e59795',
         pastel: '#fbf0f0',
-        brown: '#362e31'
+        brown: '#362e31',
+        middlebrown: '#4b3e42'
       },
       spacing: {
         '14': '3.5rem',
