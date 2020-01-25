@@ -6,7 +6,7 @@ import CamiliaLogo from './camiliaLogo';
 
 const Footer = () => {
   return (
-    <footer className="px-10 py-20 text-white md:py-32 bg-brown -px-9">
+    <footer className="px-2 py-20 text-white sm:px-10 md:py-32 bg-brown -px-9">
       <div className="flex flex-col justify-center text-center lg:text-left max-w-7xl lg:flex-row lg:mx-auto">
         <div className="flex flex-col px-6 mb-16 lg:flex-grow">
           <CamiliaLogo className="flex justify-center w-56 mx-auto mb-8 lg:justify-start lg:mx-0" color1="#FFF" color2="#FFF"/>
@@ -21,7 +21,7 @@ const Footer = () => {
             <li><MdStore className="inline mb-1 mr-1"/> Ouvert du mer au dim de 10h à 19h</li>
           </ul>
         </div>
-        <div className="px-6 mb-16 text-center lg:text-right lg:w-1/4">
+        <div className="mb-16 text-center sm:px-6 lg:text-right lg:w-1/4">
           <h3 className="mb-6 text-base tracking-widest uppercase text-middlepink font-branbold">Liens Utiles</h3>
           <div className="flex justify-center lg:justify-end">
             <a href="http://instagram.com/camilia_coiffure" className="flex items-center justify-center mr-3 rounded-full cursor-pointer w-14 h-14 bg-pastel hover:bg-pink">

@@ -30,21 +30,21 @@ const Prestations = () => {
   }
   `)
 
-  console.log(data);
   const insta = data.allInstaNode.edges;
   const url = `https://www.instagram.com/p/`;
+  
   return (
-    <div className="flex flex-wrap justify-center px-10 py-20 mx-auto text-center max-w-8xl lg:py-24">
+    <div className="flex flex-wrap justify-center px-4 py-20 mx-auto text-center sm:px-10 max-w-8xl lg:py-24">
       <div className="max-w-3xl mb-10">
         <h2 className="flex justify-center mb-3 md:mb-6"><FiInstagram className="mb-2 mr-3"/>
           Flux Instagram
         </h2>
-        <h3>Chez Camilia Coiffure, votre satisfaction est notre plus grande mission. Voici un aperçu des prestations réalisées pour nos clientes.</h3>
+        <h3 className="text-1xl sm:text-2xl">Chez Camilia Coiffure, votre satisfaction est notre plus grande mission. Voici un aperçu des prestations réalisées pour nos clientes.</h3>
       </div>
       <div className="flex flex-wrap justify-center mb-10">
         {
           insta.map(({node})=> (
-            <div className="flex p-3">
+            <div className="flex p-3" key={node.id}>
               <a href={url + node.id} className="flex">
                 <Img fixed={node.localFile.childImageSharp.fixed} className="w-full rounded-lg"/>
               </a>

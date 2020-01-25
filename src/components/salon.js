@@ -24,12 +24,12 @@ const Salon = () => {
   `)
 
   return (
-    <div id="salon" className="flex flex-wrap justify-center px-10 py-20 mx-auto text-center max-w-7xl lg:py-24">
+    <div id="salon" className="flex flex-wrap justify-center px-6 py-20 mx-auto text-center sm:px-10 max-w-7xl lg:py-24">
       <div className="mb-12 intro lg:px-0">
         <h2 className="flex justify-center mb-3 md:mb-6"><FiCoffee className="mb-2 mr-3"/>
           Un espace convivial et chaleureux
         </h2>
-        <p className="max-w-3xl text-2xl">
+        <p className="max-w-3xl text-1xl sm:text-2xl">
         Le salon vous propose des prestations toujours à l’affut des dernières tendances. Notre coiffeuse styliste/visagiste vous apportera conseils et expertise du cheveu selon vos envies.
         </p>
       </div>

@@ -4,7 +4,7 @@ import { FiCoffee } from "react-icons/fi"
 const Service = ({title, text, button }) => {
   
   return (
-    <div className="justify-center px-5 my-10 text-center w-96">
+    <div className="justify-center px-0 mx-3 my-10 text-center sm:px-5 w-96">
       <div className="flex items-center justify-center w-24 h-24 mx-auto mb-6 rounded-full bg-pastel text-brown">
         <FiCoffee className="text-4xl"/>
       </div>
