@@ -2,6 +2,7 @@ import React from 'react';
 import { FiCoffee } from "react-icons/fi";
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from "gatsby-image";
+import Icon24 from './icon24';
 
 const Salon = () => {
   const data = useStaticQuery(graphql`
@@ -26,7 +27,13 @@ const Salon = () => {
   return (
     <div id="salon" className="flex flex-wrap justify-center px-6 py-20 mx-auto text-center sm:px-10 max-w-7xl lg:py-24">
       <div className="mb-12 intro lg:px-0">
-        <h2 className="flex justify-center mb-3 md:mb-6"><FiCoffee className="mb-2 mr-3"/>
+        <h2 className="flex flex-col justify-center mb-3 md:flex-row md:mb-6">
+          <div className="inline md:hidden">
+            <Icon24>
+              <FiCoffee />
+            </Icon24>
+          </div>
+          <FiCoffee className="hidden mr-4 md:inline"/>
           Un espace convivial et chaleureux
         </h2>
         <p className="max-w-3xl text-1xl sm:text-2xl">

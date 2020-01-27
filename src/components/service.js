@@ -1,13 +1,14 @@
 import React from 'react';
 import { FiCoffee } from "react-icons/fi"
+import Icon24 from './icon24';
 
 const Service = ({title, text, button }) => {
   
   return (
     <div className="justify-center px-0 mx-3 my-10 text-center sm:px-5 w-96">
-      <div className="flex items-center justify-center w-24 h-24 mx-auto mb-6 rounded-full bg-pastel text-brown">
-        <FiCoffee className="text-4xl"/>
-      </div>
+      <Icon24>
+        <FiCoffee className="text-brown"/>
+      </Icon24>
       <h3 className="px-4 mb-4 text-3xl">
         {title}
       </h3>

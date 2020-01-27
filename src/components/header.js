@@ -13,14 +13,14 @@ const Header = () => (
             <CamiliaLogo className="flex justify-center w-56 h-full mx-auto md:w-48 lg:w-56 md:mx-0" color1="#e73a65" color2="#4b3f42"/>
           </div>
         </div>
-        <nav className="flex justify-center text-center md:px-6 md:mt-0 md:items-center text-1xl font-branbold text-brown">
-          <AnchorLink href="#prestations" className="pt-2 mr-6 lg:mr-8 hover:text-pink">
-            Prestations
+        <nav className="flex flex-wrap justify-center text-center md:px-6 md:mt-0 md:items-center text-1xl font-branbold text-brown">
+          <AnchorLink href="#actus" className="pt-2 mr-6 lg:mr-8 hover:text-pink">
+            Actus
           </AnchorLink>
           <AnchorLink href="#salon" className="pt-2 mr-6 lg:mr-8 hover:text-pink">
             Le salon
           </AnchorLink>
-          <AnchorLink href="#infos-pratiques" className="pt-2 hover:text-pink">
+          <AnchorLink href="#contact" className="pt-2 hover:text-pink">
             Contact
           </AnchorLink>
         </nav>

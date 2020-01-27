@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center text-base text-center">
-        <p className="px-6 py-2 text-base rounded-full bg-middlebrown">Site internet réalisé par <a href="http://anhek.dev" className="link">Antonin Nhek</a>. <br className="inline md:hidden"/>Propulsé par <a href="https://www.gatsbyjs.org" className="link">Gatsby</a> et <a href="http://tailwindcss.com" className="link">Tailwind CSS</a>.</p>
+        <p className="px-6 py-2 text-base text-white rounded-full bg-middlebrown">Site internet réalisé par <a href="http://anhek.dev" className="link">Antonin Nhek</a>. <br className="inline md:hidden"/>Propulsé par <a href="https://www.gatsbyjs.org" className="link">Gatsby</a> et <a href="http://tailwindcss.com" className="link">Tailwind CSS</a>.</p>
       </div>
     </footer>
   );

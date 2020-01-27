@@ -6,7 +6,8 @@ import Hero from "../components/hero"
 import Services from "../components/services"
 import Review from "../components/reviews"
 import Salon from "../components/salon"
-import Prestations from "../components/prestations"
+import Instagram from "../components/instagram"
+import Contact from "../components/contact"
 
 const IndexPage = () => (
   <Layout>
@@ -14,8 +15,9 @@ const IndexPage = () => (
     <Hero />
     <Services />
     <Review />
-    <Prestations />
+    <Instagram />
     <Salon />
+    <Contact />
   </Layout>
 )
 
