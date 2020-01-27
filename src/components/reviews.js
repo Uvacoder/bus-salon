@@ -1,7 +1,7 @@
 import React from 'react';
 import { FiUsers } from 'react-icons/fi';
 import { FaFacebook } from 'react-icons/fa';
-import Icon24 from './icon24';
+
 const Review = () => {
   return (
     <div className="px-10 py-20 text-center bg-pastel lg:py-24">
