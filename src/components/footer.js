@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="flex flex-col justify-center text-center lg:text-left max-w-7xl lg:flex-row lg:mx-auto">
         <div className="flex flex-col px-6 mb-16 lg:flex-grow">
           <CamiliaLogo className="flex justify-center w-56 mx-auto mb-8 lg:justify-start lg:mx-0" color1="#FFF" color2="#FFF"/>
-          <p className="text-base">© {new Date().getFullYear()} Camilia Coiffure. Tous droits réservés.</p>
+          <p className="text-base text-white">© {new Date().getFullYear()} Camilia Coiffure. Tous droits réservés.</p>
         </div>
         <div className="px-6 mb-16 text-center lg:text-left lg:w-1/3">
           <h3 className="mb-6 text-base tracking-widest uppercase text-middlepink font-branbold">Infos Pratiques</h3>

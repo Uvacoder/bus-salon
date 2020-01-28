@@ -1,10 +1,12 @@
 import React from 'react';
 import Service from './service';
 import { FiCoffee, FiList, FiMessageCircle } from "react-icons/fi"
+import Container from './container';
 
 const Services = () => {
   return (
-    <div className="flex flex-wrap justify-center py-10 mx-auto text-center max-w-7xl -px-10 lg:py-14">
+    <Container id="services">
+    <div className="flex flex-wrap justify-center">
       <Service 
         title="Tarifs des prestations pour l’année 2020"
         text="Pour connaître le prix de nos différentes prestations (coupe, coloration, mèches, balayages, etc…)"
@@ -25,8 +27,9 @@ const Services = () => {
         button="Nous écrire"
         link="http://duckduckgo.fr"
         icon={FiMessageCircle}
-      />            
-    </div>
+      />
+    </div>      
+    </Container>
   );
 }
  

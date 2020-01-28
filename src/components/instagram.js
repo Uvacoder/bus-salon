@@ -3,6 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Img from "gatsby-image"
 import { FiInstagram } from "react-icons/fi";
 import Icon24 from './icon24';
+import Container from './container';
 
 const Instagram = () => {
   const data = useStaticQuery(graphql`
@@ -35,7 +36,8 @@ const Instagram = () => {
   const url = `https://www.instagram.com/p/`;
   
   return (
-    <div id="actus" className="flex flex-wrap justify-center px-4 py-20 mx-auto text-center border-b-4 border-pastel sm:px-10 max-w-8xl lg:py-24">
+    <Container id="actus">
+    <div className="flex flex-wrap justify-center text-center">
       <div className="max-w-3xl mb-10">
         <h2 className="flex flex-col justify-center mb-3 md:flex-row md:mb-6">
           <div className="inline md:hidden">
@@ -60,9 +62,10 @@ const Instagram = () => {
         }
       </div>
       <div>
-        <button href="" className="inline-block w-auto px-6 pt-3 pb-2 text-2xl text-white border rounded-full bg-pink hover:text-white hover:bg-pink">Suivez-nous sur Instagram</button>
+        <a href="http://instagram.com/camilia_coiffure" className="inline-block w-auto px-6 pt-3 pb-2 text-xl text-white border rounded-full md:text-2xl bg-pink hover:text-white hover:bg-pink">Suivez-nous sur Instagram</a>
       </div>
     </div>
+    </Container>
   );
 }
  

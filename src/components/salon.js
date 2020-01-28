@@ -3,6 +3,7 @@ import { FiCoffee } from "react-icons/fi";
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from "gatsby-image";
 import Icon24 from './icon24';
+import Container from './container';
 
 const Salon = () => {
   const data = useStaticQuery(graphql`
@@ -25,8 +26,9 @@ const Salon = () => {
   `)
 
   return (
-    <div id="salon" className="flex flex-wrap justify-center px-6 py-20 mx-auto text-center sm:px-10 max-w-7xl lg:py-24">
-      <div className="mb-12 intro lg:px-0">
+    <Container id="salon">
+      <div className="flex flex-col w-full">
+      <div className="max-w-3xl mx-auto mb-12 text-center intro lg:px-0">
         <h2 className="flex flex-col justify-center mb-3 md:flex-row md:mb-6">
           <div className="inline md:hidden">
             <Icon24>
@@ -36,7 +38,7 @@ const Salon = () => {
           <FiCoffee className="hidden mr-4 md:inline"/>
           Un espace convivial et chaleureux
         </h2>
-        <p className="max-w-3xl text-1xl sm:text-2xl">
+        <p className="max-w-3xl mx-auto text-1xl sm:text-2xl">
         Le salon vous propose des prestations toujours à l’affut des dernières tendances. Notre coiffeuse styliste/visagiste vous apportera conseils et expertise du cheveu selon vos envies.
         </p>
       </div>
@@ -48,7 +50,8 @@ const Salon = () => {
           <Img fluid={data.salon02.childImageSharp.fluid} className="rounded-lg h-96"/>
         </div>
       </div>
-    </div>
+      </div>
+    </Container>
   );
 }
  

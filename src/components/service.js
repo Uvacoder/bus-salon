@@ -5,7 +5,7 @@ import Icon24 from './icon24';
 const Service = ({title, text, button }) => {
   
   return (
-    <div className="justify-center px-0 mx-3 my-10 text-center sm:px-5 w-96">
+    <div className="justify-center px-4 mx-3 my-10 text-center sm:px-5 w-96">
       <Icon24>
         <FiCoffee className="text-brown"/>
       </Icon24>

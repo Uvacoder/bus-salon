@@ -14,9 +14,11 @@ const IndexPage = () => (
     <SEO title="Accueil" />
     <Hero />
     <Services />
-    <Review />
+    <hr className="w-1/3 mx-auto border-2 rounded-sm border-pastel"/>
     <Instagram />
+    <Review />
     <Salon />
+    <hr className="w-1/3 mx-auto border-2 rounded-sm border-pastel"/>
     <Contact />
   </Layout>
 )
