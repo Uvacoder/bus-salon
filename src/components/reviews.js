@@ -14,7 +14,7 @@ const Review = () => {
                 <FiUsers />
               </div>
             </div>
-            <FiUsers className="hidden mr-4 md:inline"/>Avis des clientes
+            <FiUsers className="hidden mr-4 md:inline"/> Avis des clientes
           </h2>
           <p className="mb-3 text-center md:text-2xl md:mb-6">“Quel professionnalisme ! J’ai rarement vu des coiffeurs vous conseiller aussi bien. Elle connaît vraiment bien les cheveux, vous donne des conseils avant, pendant et après la coiffure... Accueil chaleureux et résultat qui pour une fois correspond à 100% à ce que j’attendais... Merci encore et je la recommande vivement…”</p>
           <span className="flex justify-center"><p>Helene Fabry Oval</p><FaFacebook className="mt-1 ml-2 text-xl"/></span>

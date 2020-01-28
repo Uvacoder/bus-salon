@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from "gatsby-image"
-import { FiInstagram } from "react-icons/fi";
+import { FiInstagram, FiPlus } from "react-icons/fi";
 import Icon24 from './icon24';
 import Container from './container';
 
@@ -62,7 +62,7 @@ const Instagram = () => {
         }
       </div>
       <div>
-        <a href="http://instagram.com/camilia_coiffure" className="inline-block w-auto px-6 pt-3 pb-2 text-xl text-white border rounded-full md:text-2xl bg-pink hover:text-white hover:bg-pink">Suivez-nous sur Instagram</a>
+        <a href="http://instagram.com/camilia_coiffure" className="inline-block w-auto px-6 pt-3 pb-2 text-xl text-white border rounded-full md:text-2xl bg-pink hover:text-white hover:bg-pink">Voir sur Instagram</a>
       </div>
     </div>
     </Container>

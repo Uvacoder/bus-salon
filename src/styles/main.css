@@ -64,6 +64,76 @@ h3 {
   @apply text-2xl;
 }
 
+h4 {
+  @apply text-2xl;
+}
+
+/* HEADER */
+
+.header-link {
+  @apply flex items-center justify-center rounded-full cursor-pointer w-14 h-14 bg-pastel;
+}
+
+.header-icon {
+  @apply text-2xl text-brown;
+}
+
+/* CONTACT */
+
+.coor-icon {
+  @apply inline mb-1 mr-1;
+}
+
+.coor-link {
+  transition: background .2s;
+}
+
+.coor-link:hover {
+  @apply bg-white rounded;
+}
+
+/* FOOTER */
+
+.footer-link {
+  transition: background .2s;
+}
+
+.footer-link:hover {
+  @apply rounded bg-middlepink;
+}
+
+.footer-icon {
+  @apply inline mb-1 mr-1;
+}
+
+.footer-picto {
+  @apply text-2xl text-brown;
+}
+
+.picto-link {
+  @apply flex items-center justify-center rounded-full cursor-pointer w-14 h-14 bg-pastel;
+}
+
+/* FORMS */
+
+label {
+  @apply block text-left;
+}
+
+input, textarea {
+  @apply w-full px-2 py-1 bg-white border rounded border-middlepink;
+}
+
+.form-block {
+  @apply mb-4 text-xl;
+}
+
+@screen sm {
+  .form-block {
+    @apply flex-row;
+  }
+}
+
 @screen md {
   .badge:last-child {
     @apply ml-2;
