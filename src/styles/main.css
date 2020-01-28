@@ -78,6 +78,38 @@ h4 {
   @apply text-2xl text-brown;
 }
 
+
+/* HERO */
+
+.hero-tel-link {
+  @apply px-6 pt-2 mb-4 text-3xl bg-white rounded-full text-brown font-branbold;
+}
+
+.hero-tel-link:hover {
+  @apply bg-middlepink;
+}
+
+.hero-link {
+  @apply flex items-center justify-center inline-block mb-4 text-xl text-white;
+  transition: background .2s;
+}
+.hero-link:hover {
+  @apply text-white rounded bg-middlepink;
+}
+
+/* SERVICES */
+
+.service-card {
+  @apply justify-center px-4 mx-3 my-10 text-center w-80;
+}
+
+.service-link {
+  @apply inline-block w-auto px-6 pt-3 pb-2 text-xl border rounded-full border-pink text-pink;
+}
+
+.service-link:hover {
+  @apply text-white bg-pink;
+}
 /* CONTACT */
 
 .coor-icon {
@@ -89,7 +121,7 @@ h4 {
 }
 
 .coor-link:hover {
-  @apply bg-white rounded;
+  @apply rounded bg-middlepink;
 }
 
 /* FOOTER */

@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Hero from "../components/hero"
-import Services from "../components/services"
+import ServicesAlt from "../components/servicesAlt"
 import Review from "../components/reviews"
 import Salon from "../components/salon"
 import Instagram from "../components/instagram"
@@ -13,7 +13,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Accueil" />
     <Hero />
-    <Services />
+    <ServicesAlt />
     <hr className="w-1/3 mx-auto border-2 rounded-sm border-pastel"/>
     <Instagram />
     <Review />

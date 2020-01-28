@@ -28,7 +28,7 @@ const Services = () => {
         link="http://duckduckgo.fr"
         icon={FiMessageCircle}
       />
-    </div>      
+    </div>    
     </Container>
   );
 }
