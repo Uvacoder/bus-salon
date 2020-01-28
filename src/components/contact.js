@@ -61,7 +61,7 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="w-full p-6 border-t-4 border-white lg:w-1/2 sm:p-10 lg:border-l-4 lg:border-t-0">
+          <div id="contactus" className="w-full p-6 border-t-4 border-white lg:w-1/2 sm:p-10 lg:border-l-4 lg:border-t-0">
             <Form />
           </div>
           

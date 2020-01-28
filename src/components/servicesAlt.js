@@ -48,7 +48,7 @@ const ServicesAlt = () => {
           <p className="mb-6">
             Besoin d’un renseignement ou souhaitez entrer en contact pour une demande professionnelle ?
           </p>
-          <AnchorLink href="#contact" className="service-link">
+          <AnchorLink href="#contactus" className="service-link">
             Nous écrire
           </AnchorLink>
         </div>
