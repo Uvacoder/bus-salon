@@ -1,7 +1,7 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Img from "gatsby-image"
-import { FiInstagram, FiPlus } from "react-icons/fi";
+import { FiInstagram } from "react-icons/fi";
 import Icon24 from './icon24';
 import Container from './container';
 

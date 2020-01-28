@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon24 from './icon24';
-import { FiMessageSquare, FiClock, FiInfo, FiPenTool } from "react-icons/fi";
+import { FiMessageSquare, FiClock, FiInfo } from "react-icons/fi";
 import { IoIosPin, IoIosCall, IoIosMail, IoLogoFacebook, IoLogoInstagram } from "react-icons/io";
 import Container from './container';
 import Form from './form';
