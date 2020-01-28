@@ -25,7 +25,7 @@ const Contact = () => {
             <div className="flex flex-col md:flex-row lg:flex-col">
             
               <div className="w-full">
-                <h4 className="mb-4 uppercase font-branbold"><FiInfo className="inline mb-2 mr-2"/>Coordonnées</h4>
+                <h4 className="coor-title"><FiInfo className="inline mb-2 mr-2"/>Coordonnées</h4>
                 <ul className="mb-8 text-xl sm:text-1xl">
                   <li>
                     <IoIosCall className="coor-icon"/> <a href="tel:0472787942" className="coor-link font-branbold">04 72 78 79 42</a>
@@ -46,7 +46,7 @@ const Contact = () => {
               </div>
 
               <div className="w-full">
-                <h4 className="mb-4 text-2xl uppercase font-branbold"><FiClock className="inline mb-2 mr-2"/>Horaires</h4>
+                <h4 className="coor-title"><FiClock className="inline mb-2 mr-2"/>Horaires</h4>
                 <ul className="text-xl">
                   <li>Lundi — fermé</li>
                   <li>Mardi — fermé</li>

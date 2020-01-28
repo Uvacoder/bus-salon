@@ -100,11 +100,11 @@ h4 {
 /* SERVICES */
 
 .service-card {
-  @apply justify-center px-4 mx-3 my-10 text-center w-80;
+  @apply justify-center px-5 my-10 text-center w-72;
 }
 
 .service-title {
-  @apply px-4 mb-4 text-2xl;
+  @apply px-4 mb-4 text-2xl font-branbold;
 }
 
 .service-link {
@@ -115,9 +115,15 @@ h4 {
   @apply text-white bg-pink;
 }
 
+@screen md {
+  .service-card {
+    @apply mx-0 w-80;
+  }
+}
+
 @screen lg {
   .service-card {
-    @apply w-72;
+    @apply mx-3;
   }
 }
 
@@ -133,6 +139,9 @@ h4 {
 
 /* CONTACT */
 
+.coor-title {
+  @apply mb-4 uppercase font-branbold;
+}
 .coor-icon {
   @apply inline mb-1 mr-1;
 }

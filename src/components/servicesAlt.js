@@ -8,7 +8,7 @@ const ServicesAlt = () => {
   return (
     <Container>
       <div className="flex flex-wrap justify-center">
-        <div className="service-card sm:px-5">
+        <div className="service-card">
           <Icon24>
             <FiFileText className="text-brown"/>
           </Icon24>
@@ -23,7 +23,7 @@ const ServicesAlt = () => {
           </a>
         </div>
 
-        <div className="service-card sm:px-5">
+        <div className="service-card">
           <Icon24>
             <FiCoffee className="text-brown"/>
           </Icon24>
@@ -38,7 +38,7 @@ const ServicesAlt = () => {
           </AnchorLink>
         </div>
 
-        <div className="service-card sm:px-5">
+        <div className="service-card">
           <Icon24>
             <FiMessageCircle className="text-brown"/>
           </Icon24>
