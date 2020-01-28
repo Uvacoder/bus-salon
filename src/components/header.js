@@ -2,7 +2,6 @@ import React from "react"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { FiFacebook, FiInstagram } from "react-icons/fi"
 import CamiliaLogo from "./camiliaLogo"
-import { Link } from "gatsby"
 
 const Header = () => (
   <header id="header" className="bg-white">

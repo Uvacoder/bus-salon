@@ -82,7 +82,7 @@ h4 {
 /* HERO */
 
 .hero-tel-link {
-  @apply px-6 pt-2 mb-4 text-3xl bg-white rounded-full text-brown font-branbold;
+  @apply inline-block px-6 pt-2 mb-4 text-3xl bg-white rounded-full text-brown font-branbold;
 }
 
 .hero-tel-link:hover {
