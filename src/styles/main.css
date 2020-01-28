@@ -103,13 +103,34 @@ h4 {
   @apply justify-center px-4 mx-3 my-10 text-center w-80;
 }
 
+.service-title {
+  @apply px-4 mb-4 text-2xl;
+}
+
 .service-link {
-  @apply inline-block w-auto px-6 pt-3 pb-2 text-xl border rounded-full border-pink text-pink;
+  @apply inline-block w-auto px-6 pt-3 pb-2 text-xl border-2 rounded-full border-pink text-pink;
 }
 
 .service-link:hover {
   @apply text-white bg-pink;
 }
+
+@screen lg {
+  .service-card {
+    @apply w-72;
+  }
+}
+
+@screen xl {
+  .service-card {
+    @apply w-88;
+  }
+  .service-title {
+    @apply text-3xl;
+  }
+}
+
+
 /* CONTACT */
 
 .coor-icon {

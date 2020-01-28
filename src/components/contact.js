@@ -1,6 +1,6 @@
 import React from 'react';
 import Icon24 from './icon24';
-import { FiMessageSquare, FiClock, FiInfo } from "react-icons/fi";
+import { FiMessageCircle, FiClock, FiInfo } from "react-icons/fi";
 import { IoIosPin, IoIosCall, IoIosMail, IoLogoFacebook, IoLogoInstagram } from "react-icons/io";
 import Container from './container';
 import Form from './form';
@@ -13,10 +13,10 @@ const Contact = () => {
         <h2 className="flex flex-col justify-center mb-3 md:flex-row md:mb-6">
           <div className="inline md:hidden">
             <Icon24>
-              <FiMessageSquare />
+              <FiMessageCircle />
             </Icon24>
           </div>
-          <FiMessageSquare className="hidden mr-4 md:inline"/>
+          <FiMessageCircle className="hidden mr-4 md:inline"/>
           Pour nous contacter
         </h2>
 
