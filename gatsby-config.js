@@ -34,11 +34,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Camilia Coiffure`,
+        short_name: `Camilia Coiffure`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#db4068`,
+        theme_color: `#db4068`,
         display: `minimal-ui`,
         icon: `src/images/camilia-icon.png`, // This path is relative to the root of the site.
       },
