@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            username
           }
         }
         screenshot:file(relativePath: {eq: "camilia-screenshot.jpg"}) {
@@ -74,7 +75,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: site.siteMetadata.username,
         },
         {
           name: `twitter:title`,
@@ -86,7 +87,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: `https://www.dropbox.com/s/ygvsxtbt0yl50y7/camilia-screenshot.jpg?raw=1`,
+          content: screenshot.childImageSharp.fixed.src,
         }
       ].concat(meta)}
     />
