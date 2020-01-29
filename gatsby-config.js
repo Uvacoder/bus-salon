@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Camilia Coiffure - Salon de coiffure mixte à Lyon`,
-    description: `Salon de coiffure mixte à Lyon. Sur rendez-vous au 04 72 80 96 77. Ombré hair, mèches, couleur, coloration végétale, coupe homme et femme.`,
+    description: `Salon de coiffure mixte à Lyon. Sur rendez-vous au 04 72 80 96 77. Ombré hair, mèches, coloration végétale, coupe homme et femme.`,
     author: `Marine Nhek`,
     username: `@camiliacoiffure`,
   },

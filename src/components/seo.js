@@ -29,7 +29,6 @@ function SEO({ description, lang, meta, title }) {
               src
             }
           }
-          absolutePath
         }
       }
     `
@@ -88,7 +87,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:image`,
-          content: screenshot.absolutePath,
+          content: `https://www.dropbox.com/s/ygvsxtbt0yl50y7/camilia-screenshot.jpg?raw=1`,
         }
       ].concat(meta)}
     />
