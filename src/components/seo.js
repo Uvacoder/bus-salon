@@ -41,6 +41,10 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          name: `author`,
+          content: site.siteMetadata.author,
+        },
+        {
           property: `og:title`,
           content: title,
         },
@@ -54,7 +58,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -68,6 +72,10 @@ function SEO({ description, lang, meta, title }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `twitter:image`,
+          content: `https://www.dropbox.com/s/ygvsxtbt0yl50y7/camilia-screenshot.jpg?raw=1`,
+        }
       ].concat(meta)}
     />
   )
