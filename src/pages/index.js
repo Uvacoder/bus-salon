@@ -24,8 +24,8 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO siteTitle={data.site.siteMetadata.title} />
-      <Header/>
+      <SEO title="Accueil" />
+      <Header />
       <Hero />
       <ServicesAlt />
       <hr className="w-1/3 mx-auto border-2 rounded-sm border-pastel"/>
