@@ -5,11 +5,11 @@ import SEO from "../components/seo"
 import Header from "../components/header"
 import Hero from "../components/hero"
 import ServicesAlt from "../components/servicesAlt"
-import Review from "../components/reviews"
 import Salon from "../components/salon"
 import Instagram from "../components/instagram"
 import Contact from "../components/contact"
 import { useStaticQuery, graphql } from "gatsby"
+import Reviews from "../components/reviews"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -30,7 +30,7 @@ const IndexPage = () => {
       <ServicesAlt />
       <hr className="w-1/3 mx-auto border-2 rounded-sm border-pastel"/>
       <Instagram />
-      <Review />
+      <Reviews />
       <Salon />
       <hr className="w-1/3 mx-auto border-2 rounded-sm border-pastel"/>
       <Contact />

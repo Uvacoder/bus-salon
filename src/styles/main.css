@@ -136,6 +136,20 @@ h4 {
   }
 }
 
+/* SLIDE */
+
+.slide {
+  @apply p-4 text-base text-left outline-none;
+}
+
+@screen md {
+  .slide-text {
+    @apply text-2xl;
+  }
+}
+.slide-text {
+  @apply mb-4;
+}
 
 /* CONTACT */
 
