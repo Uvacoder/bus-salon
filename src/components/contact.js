@@ -28,7 +28,7 @@ const Contact = () => {
                 <h3 className="coor-title"><FiInfo className="inline mb-2 mr-2"/>Coordonnées</h3>
                 <ul className="mb-8 text-xl sm:text-1xl">
                   <li>
-                    <IoIosCall className="coor-icon"/> <a href="tel:0472787942" className="bg-link font-branbold" title="Numéro de téléphone">04 72 78 79 42</a>
+                    <IoIosCall className="coor-icon"/> <a href="tel:0472809677" className="bg-link font-branbold" title="Numéro de téléphone">04 72 80 96 77</a>
                   </li>
                   <li>
                     <IoIosMail className="coor-icon"/> <a href="mailto:camilia.coiffure@gmail.com" title="E-mail" className="bg-link">camilia.coiffure@gmail.com</a>

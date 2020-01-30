@@ -20,8 +20,8 @@ const Footer = () => {
           <h3 className="mb-6 text-base tracking-widest uppercase text-middlepink font-branbold">Infos Pratiques</h3>
           <ul className="text-lg sm:text-xl">
             <li>
-              <a href="tel:0472787942" title="Numéro de téléphone" className="bg-link">
-                <IoIosCall className="footer-icon"/> 04 72 78 79 42
+              <a href="tel:0472809677" title="Numéro de téléphone" className="bg-link">
+                <IoIosCall className="footer-icon"/> 04 72 80 96 77
               </a>
             </li>
             <li>
