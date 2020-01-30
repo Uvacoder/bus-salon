@@ -13,23 +13,23 @@ const Header = () => (
         </div>
 
         <nav className="flex flex-wrap justify-center text-center md:px-6 md:mt-0 md:items-center text-1xl font-branbold text-brown" role="navigation" aria-label="Navigation Header">
-          <AnchorLink href="#actus" title="Aller vers la section Actus" role="nav-item" className="mr-6 lg:mr-8 hover:text-pink">
+          <AnchorLink href="#actus" title="Aller vers la section Actus" role="link" className="mr-6 lg:mr-8 hover:text-pink">
             Actus
           </AnchorLink>
-          <AnchorLink href="#salon" title="Aller vers la section Salon" role="nav-item" className="mr-6 lg:mr-8 hover:text-pink">
+          <AnchorLink href="#salon" title="Aller vers la section Salon" role="link" className="mr-6 lg:mr-8 hover:text-pink">
             Le salon
           </AnchorLink>
-          <AnchorLink href="#contact" title="Aller vers la section Contact" role="nav-item" className="hover:text-pink">
+          <AnchorLink href="#contact" title="Aller vers la section Contact" role="link" className="hover:text-pink">
             Contact
           </AnchorLink>
         </nav>
 
         <div className="flex justify-center mt-4 md:mt-0 md:items-center">
-          <a href="http://instagram.com/camilia_coiffure/" title="URL page Instagram" className="mr-3 header-link hover:bg-pink">
-            <FiInstagram className="header-icon" />
+          <a href="http://instagram.com/camilia_coiffure/" title="URL page Instagram" className="mr-3 picto-link">
+            <FiInstagram className="picto-text" />
           </a>
-          <a href="http://facebook.com/camiliacoiffure.lyon/" title="URL page Facebook" className="header-link hover:bg-pink">
-            <FiFacebook className="header-icon" />
+          <a href="http://facebook.com/camiliacoiffure.lyon/" title="URL page Facebook" className="picto-link">
+            <FiFacebook className="picto-text" />
           </a>
         </div>
         

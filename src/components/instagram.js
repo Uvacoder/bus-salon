@@ -48,7 +48,7 @@ const Instagram = () => {
           <FiInstagram className="hidden mr-4 md:inline"/>
           Actus Instagram
         </h2>
-        <h3 className="text-1xl sm:text-2xl">Chez Camilia Coiffure, votre satisfaction est notre plus grande mission. Voici un aperçu des prestations réalisées pour nos clientes.</h3>
+        <h3 className="text-1xl sm:text-2xl font-body">Chez Camilia Coiffure, votre satisfaction est notre plus grande mission. Voici un aperçu des prestations réalisées pour nos clientes.</h3>
       </div>
       <div className="flex flex-wrap justify-center mb-10">
         {
@@ -66,7 +66,7 @@ const Instagram = () => {
         }
       </div>
       <div>
-        <a href="http://instagram.com/camilia_coiffure" title="Aller sur la page Instagram" className="inline-block w-auto px-6 pt-3 pb-2 text-xl text-white border rounded-full md:text-2xl bg-pink hover:text-white hover:bg-pink">Voir sur Instagram</a>
+        <a href="http://instagram.com/camilia_coiffure" title="Aller sur la page Instagram" className="service-link">Voir le profil Instagram</a>
       </div>
     </div>
     </Container>

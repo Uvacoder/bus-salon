@@ -28,19 +28,19 @@ const Contact = () => {
                 <h3 className="coor-title"><FiInfo className="inline mb-2 mr-2"/>Coordonnées</h3>
                 <ul className="mb-8 text-xl sm:text-1xl">
                   <li>
-                    <IoIosCall className="coor-icon"/> <a href="tel:0472787942" className="coor-link font-branbold" title="Numéro de téléphone">04 72 78 79 42</a>
+                    <IoIosCall className="coor-icon"/> <a href="tel:0472787942" className="bg-link font-branbold" title="Numéro de téléphone">04 72 78 79 42</a>
                   </li>
                   <li>
-                    <IoIosMail className="coor-icon"/> <a href="mailto:camilia.coiffure@gmail.com" title="E-mail" className="coor-link">camilia.coiffure@gmail.com</a>
+                    <IoIosMail className="coor-icon"/> <a href="mailto:camilia.coiffure@gmail.com" title="E-mail" className="bg-link">camilia.coiffure@gmail.com</a>
                   </li>
                   <li>
-                    <IoIosPin className="coor-icon"/> <a href="https://g.page/camiliacoiffure-lyon" title="Adresse postale" className="coor-link">17 rue Passet 69007 Lyon</a>
+                    <IoIosPin className="coor-icon"/> <a href="https://g.page/camiliacoiffure-lyon" title="Adresse postale" className="bg-link">17 rue Passet 69007 Lyon</a>
                   </li>
                   <li>
-                    <IoLogoFacebook className="coor-icon"/> <a href="https://www.facebook.com/camiliacoiffure.lyon" title="URL page Facebook" className="coor-link">camiliacoiffure.lyon</a>
+                    <IoLogoFacebook className="coor-icon"/> <a href="https://www.facebook.com/camiliacoiffure.lyon" title="URL page Facebook" className="bg-link">camiliacoiffure.lyon</a>
                   </li>
                   <li>
-                    <IoLogoInstagram className="coor-icon"/> <a href="http://instagram.com/camilia_coiffure" title="URL page Instagram" className="coor-link">camilia_coiffure</a>
+                    <IoLogoInstagram className="coor-icon"/> <a href="http://instagram.com/camilia_coiffure" title="URL page Instagram" className="bg-link">camilia_coiffure</a>
                   </li>
                 </ul>
               </div>

@@ -49,7 +49,7 @@ p {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  @apply leading-tight text-brown;
+  @apply leading-tight text-brown font-branbold;
 }
 
 h1 {
@@ -70,7 +70,7 @@ h4 {
 
 /* HEADER */
 
-.header-link {
+.picto-link {
   @apply flex items-center justify-center rounded-full cursor-pointer w-14 h-14 bg-pastel;
 }
 
@@ -90,7 +90,7 @@ h4 {
 }
 
 .hero-link {
-  @apply flex items-center justify-center inline-block mb-4 text-xl text-white;
+  @apply flex items-center justify-center inline-block pt-2 pb-1 mb-4 text-xl text-white;
   transition: background .2s;
 }
 .hero-link:hover {
@@ -160,34 +160,35 @@ h4 {
   @apply inline mb-1 mr-1;
 }
 
-.coor-link {
+.bg-link {
   transition: background .2s;
+  @apply inline-block pt-2 pb-1;
 }
 
-.coor-link:hover {
+.bg-link:hover {
   @apply rounded bg-middlepink;
 }
 
 /* FOOTER */
 
-.footer-link {
-  transition: background .2s;
-}
-
-.footer-link:hover {
-  @apply rounded bg-middlepink;
-}
-
 .footer-icon {
   @apply inline mb-1 mr-1;
 }
 
-.footer-picto {
+.picto-text {
   @apply text-2xl text-brown;
 }
 
 .picto-link {
   @apply flex items-center justify-center rounded-full cursor-pointer w-14 h-14 bg-pastel;
+}
+
+.picto-link:hover {
+  @apply bg-pink;
+}
+
+.picto-link:hover .picto-text {
+  @apply text-white;
 }
 
 /* FORMS */

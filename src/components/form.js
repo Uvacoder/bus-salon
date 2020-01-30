@@ -32,7 +32,7 @@ const Form = () => {
       </div>
 
       <div className="flex justify-start">
-        <button type="submit" className="px-6 pt-2 pb-1 text-xl text-white uppercase rounded-full font-branbold bg-pink">Envoyer</button>
+        <button type="submit" className="service-link">Envoyer</button>
       </div>
       
     </form>    
