@@ -7,7 +7,7 @@ const Review = ({text, author, link, source}) => {
       <p className="slide-text">{text}</p>
       <div className="text-right">
         <p className="slide-author">— {author}</p>
-        <p className="text-base"><FiLink2 className="inline mb-1 mr-2"/><a className="coor-link" href={link}>Avis posté sur {source}</a></p>
+        <p className="text-base"><FiLink2 className="inline mb-1 mr-2"/><a className="coor-link" title="Lien vers la source" href={link}>Avis posté sur {source}</a></p>
       </div>
     </div>
   );

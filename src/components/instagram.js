@@ -55,14 +55,18 @@ const Instagram = () => {
           insta.map(({node})=> (
             <div className="flex p-3" key={node.id}>
               <a href={url + node.id} className="flex">
-                <Img fixed={node.localFile.childImageSharp.fixed} className="w-full border-4 border-white rounded-lg instapic hover:border-pink"/>
+                <Img 
+                  fixed={node.localFile.childImageSharp.fixed} 
+                  className="w-full border-4 border-white rounded-lg instapic hover:border-pink" 
+                  alt={"Camilia Coiffure, image id:" + node.id}
+                />
               </a>
             </div>
           ))
         }
       </div>
       <div>
-        <a href="http://instagram.com/camilia_coiffure" className="inline-block w-auto px-6 pt-3 pb-2 text-xl text-white border rounded-full md:text-2xl bg-pink hover:text-white hover:bg-pink">Voir sur Instagram</a>
+        <a href="http://instagram.com/camilia_coiffure" title="Aller sur la page Instagram" className="inline-block w-auto px-6 pt-3 pb-2 text-xl text-white border rounded-full md:text-2xl bg-pink hover:text-white hover:bg-pink">Voir sur Instagram</a>
       </div>
     </div>
     </Container>

@@ -5,7 +5,7 @@ const Form = () => {
   return (
     <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/thank-you" className="max-w-2xl mx-auto">
       <input type="hidden" name="contact" value="contact" />
-      <h4 className="text-left coor-title"><FiPenTool className="inline mb-1 mr-2"/>Formulaire de contact</h4>
+      <h3 className="text-left coor-title"><FiPenTool className="inline mb-1 mr-2"/>Formulaire de contact</h3>
 
       <div className="form-block">
         <label>Prénom*

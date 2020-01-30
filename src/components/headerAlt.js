@@ -22,10 +22,10 @@ const HeaderAlt = () => {
             </nav>
 
             <div className="flex justify-center mt-4 md:mt-0 md:items-center">
-              <a href="http://instagram.com/camilia_coiffure/" className="mr-3 header-link hover:bg-pink">
+              <a href="http://instagram.com/camilia_coiffure/" title="URL page Instagram" className="mr-3 header-link hover:bg-pink">
                 <FiInstagram className="header-icon" />
               </a>
-              <a href="http://facebook.com/camiliacoiffure.lyon/" className="header-link hover:bg-pink">
+              <a href="http://facebook.com/camiliacoiffure.lyon/" title="URL page Facebook" className="header-link hover:bg-pink">
                 <FiFacebook className="header-icon" />
               </a>
             </div>
