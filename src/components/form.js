@@ -31,7 +31,7 @@ const Form = () => {
         </label>
       </div>
 
-      <div className="flex justify-start">
+      <div className="flex justify-start md:justify-center">
         <button type="submit" className="service-link">Envoyer</button>
       </div>
       

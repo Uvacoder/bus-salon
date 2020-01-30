@@ -48,7 +48,7 @@ const Instagram = () => {
           <FiInstagram className="hidden mr-4 md:inline"/>
           Actus Instagram
         </h2>
-        <h3 className="text-1xl sm:text-2xl font-body">Chez Camilia Coiffure, votre satisfaction est notre plus grande mission. Voici un aperçu des prestations réalisées pour nos clientes.</h3>
+        <h3 className="leading-normal text-1xl sm:text-2xl font-body">Chez Camilia Coiffure, votre satisfaction est notre plus grande mission. Voici un aperçu des prestations réalisées pour nos clientes.</h3>
       </div>
       <div className="flex flex-wrap justify-center mb-10">
         {

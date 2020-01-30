@@ -35,6 +35,7 @@ module.exports = {
       },
       fontSize: {
         '1xl': '1.35rem',
+        '4.5xl': '2.6rem',
       },
       fontFamily: {
         body: [

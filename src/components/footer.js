@@ -16,7 +16,7 @@ const Footer = () => {
           <p className="text-base text-white">© {new Date().getFullYear()} Camilia Coiffure. Tous droits réservés.</p>
         </div>
 
-        <div className="px-6 mb-16 text-center lg:text-left lg:w-1/3">
+        <div className="px-6 mb-16 text-center lg:text-left lg:w-3/4 xl:w-1/3">
           <h3 className="mb-6 text-base tracking-widest uppercase text-middlepink font-branbold">Infos Pratiques</h3>
           <ul className="text-lg sm:text-xl">
             <li>
@@ -34,7 +34,7 @@ const Footer = () => {
                 <IoIosPin className="footer-icon"/> 17 rue Passet 69007 Lyon
               </a>
             </li>
-            <li>
+            <li className="mt-1">
               <MdStore className="footer-icon"/> Ouvert du mer au dim de 10h à 19h
             </li>
           </ul>

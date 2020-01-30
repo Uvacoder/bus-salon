@@ -15,7 +15,7 @@ const Service = ({title, text, button }) => {
       <p className="mb-6">
         {text}
       </p>
-      <button href="" className="inline-block w-auto px-6 pt-3 pb-2 text-xl border rounded-full border-pink text-pink hover:text-white hover:bg-pink">
+      <button href="" className="service-link">
         {button}
       </button>
     </div>
