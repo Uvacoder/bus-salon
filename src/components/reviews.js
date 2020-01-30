@@ -40,7 +40,7 @@ class Reviews extends Component {
               source="Google"  
             />
             <Review 
-              text="Quel professionnalisme ! J’ai rarement vu des coiffeurs vous conseiller aussi bien. Elle connaît vraiment bien les cheveux, vous donne des conseils avant, pendant et après la coiffure... Accueil chaleureux et résultat qui pour une fois correspond à 100% à ce que j’attendais... Merci encore et je la recommande vivement..."
+              text="“Quel professionnalisme ! J’ai rarement vu des coiffeurs vous conseiller aussi bien. Elle connaît vraiment bien les cheveux, vous donne des conseils avant, pendant et après la coiffure... Accueil chaleureux et résultat qui pour une fois correspond à 100% à ce que j’attendais... Merci encore et je la recommande vivement...”"
               author="Helene F."
               link="https://www.facebook.com/helene.fabryoval/posts/10214878589814728"
               source="Facebook"
@@ -52,7 +52,7 @@ class Reviews extends Component {
               source="Google"
             />
             <Review
-              text="Son travail est très perfectionniste, je n'ai jamais été déçu des résultats !! Je la recommande sans aucune hésitation. Elle est adorable et prend soins de ses clientes"
+              text="“Son travail est très perfectionniste, je n'ai jamais été déçu des résultats !! Je la recommande sans aucune hésitation. Elle est adorable et prend soins de ses clientes”"
               author="Marine L."
               link="https://www.facebook.com/marinelasckowiez/posts/10212461648571028"
               source="Facebook"
@@ -64,7 +64,7 @@ class Reviews extends Component {
               source="Google"
             />
             <Review
-              text="Très professionnelle et honnête, elle m’a conseillé par rapport à mes cheveux et leur santé. Ça aurait été un autre salon il m’aurait fait la prestation sans me prévenir de l’état catastrophique de mes cheveux. Merci encore, à dans 2 mois."
+              text="“Très professionnelle et honnête, elle m’a conseillé par rapport à mes cheveux et leur santé. Ça aurait été un autre salon il m’aurait fait la prestation sans me prévenir de l’état catastrophique de mes cheveux. Merci encore, à dans 2 mois.”"
               author="Gi Gi"
               link="https://www.facebook.com/aljia.aissaoui/posts/2335364619807902"
               source="Facebook"
