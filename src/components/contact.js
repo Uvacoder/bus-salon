@@ -48,8 +48,8 @@ const Contact = () => {
               <div className="w-full">
                 <h4 className="coor-title"><FiClock className="inline mb-2 mr-2"/>Horaires</h4>
                 <ul className="text-xl">
-                  <li>Lundi — fermé</li>
-                  <li>Mardi — fermé</li>
+                  <li>Lundi — Fermé</li>
+                  <li>Mardi — Fermé</li>
                   <li>Mercredi — 10h à 19h</li>
                   <li>Jeudi — 10h à 19h</li>
                   <li>Vendredi — 10h à 19h</li>

@@ -39,7 +39,7 @@ const Salon = () => {
           Un espace convivial et chaleureux
         </h2>
         <p className="max-w-3xl mx-auto text-1xl sm:text-2xl">
-        Le salon vous propose des prestations toujours à l’affut des dernières tendances. Notre coiffeuse styliste/visagiste vous apportera conseils et expertise du cheveu selon vos envies.
+        Le salon vous propose des prestations toujours à l’affût des dernières tendances. Notre coiffeuse styliste/visagiste vous apportera conseils et expertise du cheveu selon vos envies.
         </p>
       </div>
       <div className="flex flex-col justify-center w-full lg:flex-row">

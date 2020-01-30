@@ -27,7 +27,7 @@ const Hero = () => {
         <p className="mb-4 text-white text-1xl">Ouvert du mercredi au <br className="hidden md:inline"/>dimanche, de 10h à 19h. <br className="hidden md:inline"/>Uniquement sur rendez-vous.</p>
         <a href="tel:0472787942" className="hero-tel-link md:pt-2">04 72 80 96 77</a><br/>
         <a href="https://g.page/camiliacoiffure-lyon" className="hero-link md:justify-start">
-          <FiMapPin className="inline mb-2 mr-1 text-xl text-white"/> Voir sur Google Maps
+          <FiMapPin className="inline mt-1 mb-2 mr-1 text-xl text-white"/> Voir sur Google Maps
         </a>
         <div className="flex flex-wrap justify-center -px-2 md:justify-start">
           <BadgeReview 
