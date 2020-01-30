@@ -9,7 +9,7 @@ const Hero = () => {
     query {
       topbanner: file(name: {eq: "camiliacoiffure-banner"}) {
         childImageSharp {
-          fluid {
+          fluid(maxWidth: 1200) {
             ...GatsbyImageSharpFluid
           }
         }
