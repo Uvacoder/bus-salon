@@ -10,9 +10,11 @@ const Footer = () => {
     <footer className="px-2 py-20 text-white sm:px-10 md:py-24 bg-brown -px-9">
       <div className="flex flex-col justify-center text-center lg:text-left max-w-7xl lg:flex-row lg:mx-auto">
         <div className="flex flex-col px-6 mb-16 lg:flex-grow">
-          <AnchorLink href="#header" title="Remonter en haut de page">
-            <CamiliaLogo className="flex justify-center w-56 mx-auto mb-8 lg:justify-start lg:mx-0" color1="#FFF" color2="#FFF"/>
-          </AnchorLink>
+          <div className="flex justify-center w-56 mx-auto mb-8 lg:justify-start lg:mx-0">
+            <AnchorLink href="#header" title="Remonter en haut de page">
+              <CamiliaLogo className="" color1="#FFF" color2="#FFF"/>
+            </AnchorLink>
+          </div>
           <p className="text-base text-white">© {new Date().getFullYear()} Camilia Coiffure. Tous droits réservés.</p>
         </div>
 
@@ -44,14 +46,17 @@ const Footer = () => {
           <h3 className="mb-6 text-base tracking-widest uppercase text-middlepink font-branbold">Liens Utiles</h3>
           <div className="flex justify-center lg:justify-end">
             <a href="http://instagram.com/camilia_coiffure" title="URL page Instagram" className="mr-3 picto-link">
+              <span className="sr-only">Instagram</span>
               <FiInstagram className="picto-text" />
             </a>
             <a href="http://facebook.com/camiliacoiffure.lyon" title="URL page Facebook" className="mr-3 picto-link">
+              <span className="sr-only">Facebook</span>
               <FiFacebook className="picto-text" />
             </a>
             <a href="https://g.page/camiliacoiffure-lyon" title="Lien Google Maps" className="picto-link">
+              <span className="sr-only">Google Maps</span>
               <FiMap className="picto-text" />
-            </a>            
+            </a>
           </div>
         </div>
       </div>
@@ -63,9 +68,9 @@ const Footer = () => {
       <div className="flex justify-center mx-auto text-base text-center max-w-7xl">
         <p className="text-base text-white">Site internet réalisé par <a href="http://anhek.dev" title="Lien portfolio Antonin Nhek" className="bg-link">Antonin Nhek</a>. <br className="inline md:hidden"/>Propulsé par <a href="https://www.gatsbyjs.org" title="Site officiel GatsbyJS" className="bg-link">Gatsby</a> et <a href="http://tailwindcss.com" title="Site officiel Tailwind CSS" className="bg-link">Tailwind CSS</a>.</p>
       </div>
-      
+
     </footer>
   );
 }
- 
+
 export default Footer;

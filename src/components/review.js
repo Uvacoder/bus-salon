@@ -6,7 +6,7 @@ const Review = ({text, author, link, source}) => {
     <div className="slide">
       <p className="slide-text">{text}</p>
       <div className="text-right">
-        <p className="text-1xl slide-author">— {author}</p>
+        <h3 className="text-1xl slide-author">— {author}</h3>
         <p>
           <FiLink2 className="inline mb-1 mr-2"/>
           <a className="bg-link" title="Lien vers la source" href={link}>Avis posté sur {source}</a>
@@ -15,5 +15,5 @@ const Review = ({text, author, link, source}) => {
     </div>
   );
 }
- 
+
 export default Review;

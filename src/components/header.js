@@ -26,13 +26,15 @@ const Header = () => (
 
         <div className="flex justify-center mt-4 md:mt-0 md:items-center">
           <a href="http://instagram.com/camilia_coiffure/" title="URL page Instagram" className="mr-3 picto-link">
+            <span className="sr-only">Instagram</span>
             <FiInstagram className="picto-text" />
           </a>
           <a href="http://facebook.com/camiliacoiffure.lyon/" title="URL page Facebook" className="picto-link">
+            <span className="sr-only">Facebook</span>
             <FiFacebook className="picto-text" />
           </a>
         </div>
-        
+
       </div>
     </div>
   </header>
