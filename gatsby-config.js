@@ -15,7 +15,7 @@ module.exports = {
         printRejected: false,
         develop: false,
         tailwind: true,
-        ignore: [], // Ignore files/folders
+        ignore: ["/slick-theme.css", "/slick.css"], // Ignore files/folders
       },
     },
     `gatsby-plugin-react-helmet`,
