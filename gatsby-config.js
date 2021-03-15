@@ -10,18 +10,19 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
+        type: `user-profile`,
         username: `camilia_coiffure`,
       },
     },
     `gatsby-plugin-postcss`,
-    'gatsby-plugin-svgr',
+    "gatsby-plugin-svgr",
     {
       resolve: `gatsby-plugin-purgecss`,
       options: {
         printRejected: false,
         develop: false,
         tailwind: true,
-        ignore: ['/slick-theme.css', '/slick.css'], // Ignore files/folders
+        ignore: ["/slick-theme.css", "/slick.css"], // Ignore files/folders
       },
     },
     `gatsby-plugin-react-helmet`,
@@ -51,19 +52,19 @@ module.exports = {
         // An optional attribute which provides support for CORS check.
         // If you do not provide a crossOrigin option, it will skip CORS for manifest.
         // Any invalid keyword or empty string defaults to `anonymous`
-        crossOrigin: `use-credentials`,        
+        crossOrigin: `use-credentials`,
       },
     },
-    'gatsby-plugin-svgr',
+    "gatsby-plugin-svgr",
     {
-      resolve: 'gatsby-plugin-svgr',
+      resolve: "gatsby-plugin-svgr",
       options: {
-        prettier: true,          // use prettier to format JS code output (default)
-        svgo: true,              // use svgo to optimize SVGs (default)
+        prettier: true, // use prettier to format JS code output (default)
+        svgo: true, // use svgo to optimize SVGs (default)
         svgoConfig: {
           plugins: {
             removeViewBox: false, // remove viewBox when possible (default)
-            cleanupIDs: true,    // remove unused IDs and minify remaining IDs (default)`
+            cleanupIDs: true, // remove unused IDs and minify remaining IDs (default)`
             removeDimensions: true,
           },
         },
