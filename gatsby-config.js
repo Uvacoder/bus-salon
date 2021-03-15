@@ -7,13 +7,6 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-netlify`,
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        type: `user-profile`,
-        username: `camilia_coiffure`,
-      },
-    },
     `gatsby-plugin-postcss`,
     "gatsby-plugin-svgr",
     {
@@ -22,7 +15,7 @@ module.exports = {
         printRejected: false,
         develop: false,
         tailwind: true,
-        ignore: ["/slick-theme.css", "/slick.css"], // Ignore files/folders
+        ignore: [], // Ignore files/folders
       },
     },
     `gatsby-plugin-react-helmet`,
