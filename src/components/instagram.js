@@ -23,8 +23,6 @@ const Instagram = () => {
     }
   `)
 
-  console.log(data.allFile.edges)
-
   return (
     <Container id="actus">
       <div className="justify-center text-center xl:max-w-6xl">
