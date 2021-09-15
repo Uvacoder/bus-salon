@@ -1,25 +1,21 @@
-@import url("//hello.myfonts.net/count/3ad6ca");
-
 @tailwind base;
 
 @font-face {
-  font-family: 'BrandonTextWeb-Regular';
-  src: url('../fonts/3AD6CA_0_0.eot');
-  src: 
-    url('../fonts/3AD6CA_0_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/3AD6CA_0_0.woff2') format('woff2'),
-    url('../fonts/3AD6CA_0_0.woff') format('woff'),
-    url('../fonts/3AD6CA_0_0.ttf') format('truetype');
+  font-family: "BrandonTextWeb-Regular";
+  src: url("../fonts/3AD6CA_0_0.eot");
+  src: url("../fonts/3AD6CA_0_0.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/3AD6CA_0_0.woff2") format("woff2"),
+    url("../fonts/3AD6CA_0_0.woff") format("woff"),
+    url("../fonts/3AD6CA_0_0.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'BrandonTextWeb-Medium';
-  src: url('../fonts/3AD6CA_1_0.eot');
-  src: 
-    url('../fonts/3AD6CA_1_0.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/3AD6CA_1_0.woff2') format('woff2'),
-    url('../fonts/3AD6CA_1_0.woff') format('woff'),
-    url('../fonts/3AD6CA_1_0.ttf') format('truetype');
+  font-family: "BrandonTextWeb-Medium";
+  src: url("../fonts/3AD6CA_1_0.eot");
+  src: url("../fonts/3AD6CA_1_0.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/3AD6CA_1_0.woff2") format("woff2"),
+    url("../fonts/3AD6CA_1_0.woff") format("woff"),
+    url("../fonts/3AD6CA_1_0.ttf") format("truetype");
 }
 
 /* * {
@@ -30,8 +26,10 @@ body {
   @apply font-body;
 }
 
-a, button, .instapic {
-  transition: all .3s;
+a,
+button,
+.instapic {
+  transition: all 0.3s;
 }
 
 a.link {
@@ -48,7 +46,18 @@ p {
   @apply text-xl text-brown;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
   @apply leading-tight text-brown;
 }
 
@@ -74,7 +83,6 @@ h4 {
   }
 }
 
-
 /* HEADER */
 
 .picto-link {
@@ -84,7 +92,6 @@ h4 {
 .header-icon {
   @apply text-2xl text-brown;
 }
-
 
 /* HERO */
 
@@ -98,7 +105,7 @@ h4 {
 
 .hero-link {
   @apply flex items-center justify-center inline-block pt-2 pb-1 mb-4 text-xl text-white;
-  transition: background .2s;
+  transition: background 0.2s;
 }
 .hero-link:hover {
   @apply text-white rounded bg-middlepink;
@@ -168,7 +175,7 @@ h4 {
 }
 
 .bg-link {
-  transition: background .2s;
+  transition: background 0.2s;
   @apply inline-block pt-2 pb-1 cursor-pointer;
 }
 
@@ -204,7 +211,8 @@ label {
   @apply block text-left;
 }
 
-input, textarea {
+input,
+textarea {
   @apply w-full px-2 py-1 bg-white border rounded border-middlepink;
 }
 
